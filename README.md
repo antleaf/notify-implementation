@@ -4,7 +4,7 @@ This a project to coordinate efforts from a distributed group of people and orga
 While individual projects and groups will manage their own implementations, this project serves as a central resource to gather and share common implementation issues.
 
 ## Notify Technical Implementation Group (TIG)
-The development of this resource is advised by the Notify Technical Implementation Group (TIG), which has the following members:
+The development of this resource is supported and advised by the Notify Technical Implementation Group (TIG), which has the following members:
 
 * Paul Walk (COAR) - co-chair
 * Martin Klein (Los Alamos National Laboratory) -  co-chair 
