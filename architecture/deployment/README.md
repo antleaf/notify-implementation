@@ -18,13 +18,13 @@ Although there are probably other permutations, I suggest that the following bro
 
 This key applied to the following diagrams:
 
-![](/Users/paulwalk/Dropbox/Reference/_ou/COAR/COAR Notify/notify_implementation_git/architecture/deployment/key.png)
+![](./key.png)
 
 ## Option 1: Embedded and combined *Consumer* and *Receiver*
 
 In this arrangement, the minimum development is done to allow the repository to both receive and send LDN notifications via HTTP. However, the *Inbox* is not exposed to HTTP Get requests for notifications received, because the combined *Consumer*/*Receiver* does not store the notifications at all. Instead, the *Consumer* processes the notifications as soon as they are received.
 
-![](/Users/paulwalk/Dropbox/Reference/_ou/COAR/COAR Notify/notify_implementation_git/architecture/deployment/figure_1.png)
+![](./figure_1.png)
 
 #### Pros:
 
@@ -46,7 +46,7 @@ In this arrangement, the minimum development is done to allow the repository to 
 
 In this arrangement, a fully-functioning LDN *Receiver* and *Inbox* is embedded into the repository. The repository also embeds its own *Consumer*. In this example, the embedded consumer uses HTTP to fetch notifications from the Inbox, but it could perhaps use an "in process" method call of some kind.
 
-![](/Users/paulwalk/Dropbox/Reference/_ou/COAR/COAR Notify/notify_implementation_git/architecture/deployment/figure_2.png)
+![](./figure_2.png)
 
 #### Pros:
 
@@ -67,7 +67,7 @@ In this arrangement, a fully-functioning LDN *Receiver* and *Inbox* is embedded 
 
 In this arrangement, the *Receiver* and *Inbox* are deployed as a separate service. This creates the opportunity to use an off-the-shelf LDN *Receiver* rather than needing to develop this functionality in the repository system.
 
-![](/Users/paulwalk/Dropbox/Reference/_ou/COAR/COAR Notify/notify_implementation_git/architecture/deployment/figure_3.png)
+![](./figure_3.png)
 
 #### Pros:
 
