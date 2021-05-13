@@ -55,6 +55,7 @@ In this arrangement, a fully-functioning LDN *Receiver* and *Inbox* is embedded 
   * opportunity for repeated consumption of notifications by same or different services
 * no reliance on external services
 * complete implementation of the open protocol
+* more control over the security as allow-deny lists, allowed third systems to talk with, etc. can be configured in the repository
 
 #### Cons:
 
@@ -83,4 +84,5 @@ In this arrangement, the *Receiver* and *Inbox* are deployed as a separate servi
 #### Cons:
 
 * Reliance on external service (although this may not be perceived to be a problem)
-* close coupling between repository and LDN Receiver creates potentially 'brittle' deployment - if the repository is offline, so is the *Receiver* and *Inbox*.
+* More complex deployment and maintenance
+* Potentially duplication of security logic and/or configurations (the consumer must know which message trust, the received must know which message accept)
