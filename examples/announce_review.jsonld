@@ -35,13 +35,13 @@
   },
   "target": {
     "id": "https://repository.org",
-    "ldp:inbox": "https://repository.org/inbox/",
+    "inbox": "https://repository.org/inbox/",
     "type": [
       "Service"
     ]
   },
   "type": [
     "Announce",
-    "nat:review-success"
+    "nat:ReviewSuccess"
   ]
 }

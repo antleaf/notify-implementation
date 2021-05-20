@@ -28,7 +28,7 @@
   },
   "target": {
     "id": "https://target-system.org",
-    "ldp:inbox": "https://target-system.org/inbox/",
+    "inbox": "https://target-system.org/inbox/",
     "type": [
       "Service"
     ]
