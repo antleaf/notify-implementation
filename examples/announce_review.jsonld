@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "http://purl.org/coar/notify"
+  ] ,
+  "actor": {
+    "id": "https://isni.org/isni/0000000122832703",
+    "inbox": "https://hgwells.com/ldn/inbox",
+    "name": "H G Wells",
+    "type": [
+      "Person"
+    ]
+  },
+  "id": "urn:uuid:94ecae35-dcfd-4182-8550-22c7164fe23f",
+  "object": {
+    "id": "https://overlay-journal.org/reviews/000001/00001",
+    "ietf:cite-as": "https://doi.org/10.3214/987654",
+    "nrr:reviews": {
+      "object": {
+        "id": "https://repository.org/preprint/201203/421/",
+        "ietf:cite-as": "https://doi.org/10.5555/12345680"
+      }
+    },
+    "type": [
+      "Document",
+      "sorg:Review"
+    ]
+  },
+  "origin": {
+    "id": "https://overlay-journal.org",
+    "inbox": "https://overlay-journal.org/requests/inbox/",
+    "type": [
+      "Service"
+    ]
+  },
+  "target": {
+    "id": "https://repository.org",
+    "ldp:inbox": "https://repository.org/inbox/",
+    "type": [
+      "Service"
+    ]
+  },
+  "type": [
+    "Announce",
+    "nat:review-success"
+  ]
+}

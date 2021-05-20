@@ -1,0 +1,12 @@
+{
+  "@context" : {
+    "ietf": "http://www.iana.org/assignments/relation/",
+    "nat": "http://purl.org/coar/notify_activity_type/",
+    "nrr": "http://purl.org/coar/notify_resource_relations/",
+    "sorg": "http://schema.org/",
+
+    "ietf:cite-as": {
+        "@type" : "@id"
+    }
+  }
+}

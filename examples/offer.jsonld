@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "http://purl.org/coar/notify"
+  ] ,
+  "actor": {
+    "id": "https://orcid.org/0000-0002-1825-0097",
+    "inbox": "https://josiahcarberry.com/ldn/inbox",
+    "name": "Josiah Carberry",
+    "type": [
+      "Person"
+    ]
+  },
+  "id": "urn:uuid:0370c0fb-bb78-4a9b-87f5-bed307a509dd",
+  "object": {
+    "id": "https://origin-system.org/resources/0021",
+    "ietf:cite-as": "https://doi.org/10.4598/12123487",
+    "type": [
+      "Document"
+    ]
+  },
+  "origin": {
+    "id": "https://origin-system.org",
+    "inbox": "https://origin-system.org/inbox/",
+    "type": [
+      "Service"
+    ]
+  },
+  "target": {
+    "id": "https://target-system.org",
+    "ldp:inbox": "https://target-system.org/inbox/",
+    "type": [
+      "Service"
+    ]
+  },
+  "type": [
+    "Offer"
+  ]
+}
