@@ -1,0 +1,24 @@
+{
+  "@context" : {
+    "@vocab": "http://purl.org/coar/notify_activity_type#" ,
+
+    "ietf": "http://www.iana.org/assignments/relation/",
+    "nat": "http://purl.org/coar/notify_activity_type#",
+    "nrr": "http://purl.org/coar/notify_resource_relations#",
+    "sorg": "http://schema.org/",
+
+    "EndorsementSuccess": "nat:EndorsementSuccess",
+    "ReviewSuccess": "nat:ReviewSuccess",
+
+    "ietf:cite-as": {
+        "@type" : "@id"
+    },
+
+    "nrr:reviews" : {
+        "@type" : "@id"
+    },
+    "nrr:endorses" : {
+          "@type" : "@id"
+    }
+  }
+}
