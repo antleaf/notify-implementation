@@ -5,6 +5,3 @@ While individual projects and groups will manage their own implementations, this
 
 Most of the resources and information can be found in the [wiki for this project](https://github.com/antleaf/notify-implementation/wiki)
 
-## Notify Technical Implementation Group (TIG)
-The development of this resource is supported and advised by the [Notify Technical Implementation Group (TIG)](https://github.com/antleaf/notify-implementation/wiki/Technical-Implementation-Group)
-
