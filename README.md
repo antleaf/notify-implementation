@@ -1,5 +1,5 @@
 # COAR Notify Implementation project
-This a project to coordinate efforts from a distributed group of people and organisations to implement the [COAR Notify model and technologies](https://www.coar-repositories.org/notify-repository-and-services-interoperability-project/)
+This a project to coordinate efforts from a distributed group of people and organisations to implement the [COAR Notify model and technologies](https://www.coar-repositories.org/notify/)
 
 While individual projects and groups will manage their own implementations, this project serves as a central resource to gather and share common implementation issues.
 
